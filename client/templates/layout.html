@@ -1,0 +1,16 @@
+<template name="layout">
+	{{> header}}
+  <div class="container">
+    
+    <div id="main" class="row-fluid">
+    	<div class="col-md-8 col-md-offset-2">
+    		{{> yield}}
+    	</div>
+      
+    </div>
+    
+  </div>
+	
+{{> footer}}
+	
+</template>
